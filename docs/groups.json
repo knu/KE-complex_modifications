@@ -553,6 +553,15 @@
         {
           "path": "json/ultimate_macOS.json",
           "extra_description_path": "extra_descriptions/ultimate_macOS.json.html"
+        },
+        {
+          "path": "json/personal_knu.json"
+        },
+        {
+          "path": "json/personal_knu_unix.json"
+        },
+        {
+          "path": "json/personal_knu_qt.json"
         }
       ]
     },

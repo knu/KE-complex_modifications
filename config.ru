@@ -17,7 +17,7 @@ map '/dist.json' do
       200,
       { 'Content-Type' => 'application/json' },
       [
-        IO.popen("cd #{DOCS_DIR.shellescape} && ruby #{File.expand_path('scripts/make-distjs.rb', __dir__).shellescape}", &:read)
+        IO.popen("cd #{DOCS_DIR.shellescape} && ruby #{File.expand_path('scripts/make-distjs.rb', __dir__).shellescape} 2>&1", &:read)
       ]
     ]
   }
